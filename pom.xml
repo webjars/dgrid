@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>dgrid</artifactId>
-    <version>0.4.0</version>
+    <version>0.4.1-SNAPSHOT</version>
     <name>dgrid</name>
     <description>WebJar for dGrid</description>
     <url>http://dojofoundation.org/packages/dgrid</url>
@@ -33,7 +33,7 @@
         <url>http://github.com/webjars/dgrid</url>
         <connection>scm:git:https://github.com/webjars/dgrid.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/dgrid.git</developerConnection>
-        <tag>dgrid-0.4.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
