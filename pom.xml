@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>dgrid</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
     <name>dgrid</name>
     <description>WebJar for dGrid</description>
     <url>http://dojofoundation.org/packages/dgrid</url>
@@ -33,7 +33,7 @@
         <url>http://github.com/webjars/dgrid</url>
         <connection>scm:git:https://github.com/webjars/dgrid.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/dgrid.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>dgrid-1.1.0</tag>
     </scm>
 
     <developers>
@@ -83,7 +83,7 @@
                                 <unzip src="${project.build.directory}/dgrid.zip" dest="${project.build.directory}/dgrid" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}" overwrite="true" verbose="true">
-                                    <fileset dir="${project.build.directory}/dgrid/dgrid-${dgrid.version}" excludes="test/,doc/,demos/"/>
+                                    <fileset dir="${project.build.directory}/dgrid/dgrid-${dgrid.version}" excludes="test/,doc/,demos/" />
                                 </move>
                             </target>
                         </configuration>
